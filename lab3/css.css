@@ -1,0 +1,151 @@
+.container {
+    border: 1px solid gray;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.soone {
+    margin: 10px 10px;
+    text-align: center;
+}
+
+
+.header {
+    margin: 10px 0px;
+    line-height: 50px;
+    height: 50px;
+    background-color: #EEEEEE;
+}
+
+.menu {
+    margin: 10px 0px;
+    line-height: 50px;
+    height: 50px;
+    background-color: #EEEEEE;
+
+}
+
+
+.flexbox {
+   /* 
+   flexbox
+   flex-direction : row of colum ( tính theo chục cross và main , main theo chiều ngang cross chiều dọc)
+   flex-basis : kich thuoc cua element do  
+   flex-grow :1 : se lam tran het phan do 
+   flex-wrap: wrap of nowrap ( wrap thì có thể tự ngày xuống dòng dưới nếu hết ô òn nowrap nó sex chia nhỏ tiếp element ra)
+
+   flex-flow: kết hợp được với row of colum va wrap of nowrap
+   flex-shrink :1 se làm giới hạn dược các element không bị trang ra ngoài
+
+   viết tắt 
+   flex 1 1 auto : cái đầu là grow đến shrink đên basis
+   
+   
+   
+   
+   */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+   
+  
+}
+
+.noone1 {
+    line-height: 200px;
+    background-color: #EEEEEE;
+    height: 200px;
+    flex-basis: 26%;
+    margin-bottom: 10px;
+}
+.noone2 {
+    line-height: 200px;
+    background-color: #EEEEEE;
+    height: 200px;
+    flex-basis: 20%;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    margin: 0px 10px;
+    
+}
+.noone3 {
+    line-height: 200px;
+    background-color: #EEEEEE;
+    height: 200px;
+    flex-basis: 26%;
+    margin-bottom: 10px;
+}
+
+
+
+.footer {
+    background-color: #EEEEEE;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+/* exercire 2 */
+
+
+
+.containerhai{
+   max-width: 980px;
+   margin: 0 auto; 
+}
+
+.Notwo{
+
+    display: flex;
+ flex-direction: row;
+    flex-wrap: wrap;
+ justify-content: center;
+    gap:5px
+}
+
+
+.two{
+    width: 22%;
+    border-radius: 7px;
+    border: 1px solid gray;
+    height: 450px;
+
+    
+    
+}
+
+.two .chill{
+    height: 150px;
+    width: 100%
+
+}
+
+button{
+    margin-left: 5px;
+    margin-top: 15px;
+    border-radius: 7px;
+    border: 1px solid #fff;
+
+
+    height: 50px;
+    width: 90px;
+    background-color: #F66092;
+    font-size: 20px;
+    color: #FFF;
+}
+
+button>a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+b{
+    padding: 20px 10px;
+}
+
+.color{
+    color: gray;
+}
