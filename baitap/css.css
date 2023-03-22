@@ -1,0 +1,94 @@
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+
+}
+
+* {
+    font-family: tahoma;
+    color: green;
+}
+
+/*  */
+
+.tieude {
+    text-align: center;
+}
+
+
+.tieude>h1 {
+    font-size: 50px;
+}
+
+.tieude>p {
+    font-size: 20px;
+}
+
+/* menu */
+
+.menu {
+    background-color: green;
+    height: 50px;
+    margin: 15px;
+
+}
+
+nav>a {
+    font-size: 15px;
+    color: #fff;
+    padding: 10px;
+    padding-left: 15px;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+
+.item {
+    display: flex;
+    
+}
+
+
+.item1 {
+ flex-basis: 25%;
+    border-left: 10px solid green;
+    border-top: 10px solid green;
+    border-bottom: 10px solid green;
+    border: 5px solid green;
+    background-color: rgb(227, 212, 212);
+}
+
+
+.item2 {
+    border: 5px solid green;
+  flex-basis: 75%;
+
+}
+
+.item1>h2{
+   padding:20px 20px;
+}
+
+.item1>p{
+  padding:20px 20px;
+}
+.item2>p{
+    padding:20px 20px;
+  }
+  .item2>h2{
+    padding:20px 20px;
+  }
+
+.item img{
+  padding:20px 20px;
+}
+
+
+
+footer{
+    height: 50px;
+    border: 10px solid green;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
