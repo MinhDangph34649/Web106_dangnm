@@ -1,0 +1,68 @@
+@media screen and (max-width:600px) {
+ 
+    .between{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+     grid-template-rows: auto auto;
+    
+        
+      }
+
+.soone>p{
+    display: none;
+}
+
+.soone>h4{
+    display: none;
+}
+
+.Nike{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 20px;
+ }
+
+ .hai>p{
+    display: none;
+ }
+ .sale{
+    max-width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: auto;
+    justify-content: center;
+ }
+
+ .soba>p{
+    display: none;
+ }
+.bannerpuma{
+    display: none;
+}
+.puma{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto auto;
+    justify-content: center;
+ }
+
+ .four>p{
+    display: none;
+ }
+
+ .four>h4{
+    display: none;
+ }
+
+
+ .sale{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 20px;
+ }
+}
