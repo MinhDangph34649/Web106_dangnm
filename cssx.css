@@ -182,8 +182,8 @@ width: 98%;
 
  .Nike{
     display: grid;
-    grid-template-columns: 300px 300px 300px ;
-    grid-template-rows: 300px 200px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 350px 200px;
     justify-content: center;
     gap: 20px;
  }
@@ -206,8 +206,8 @@ width: 98%;
 
  .sale{
     display: grid;
-    grid-template-columns: 250px 250px 250px  ;
-    grid-template-rows: 250px 200px;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    grid-template-rows: 350px 200px;
     justify-content: center;
     gap: 20px;
  }
@@ -228,8 +228,8 @@ width: 98%;
  }
  .puma{
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px ;
-    grid-template-rows: 250px 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 350px 200px;
     justify-content: center;
  }
 
@@ -249,4 +249,5 @@ width: 98%;
 
 
 
- 
+ /* pagae 2 */
+
